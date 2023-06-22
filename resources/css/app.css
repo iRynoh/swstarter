@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .placeholder-bold::placeholder {
+        @apply font-bold;
+        @apply text-app-border;
+        @apply text-sm;
+    }
+}
